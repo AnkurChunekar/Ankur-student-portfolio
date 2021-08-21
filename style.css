@@ -6,12 +6,14 @@
 --primary-color: #1D4ED8
 ;
 --darkgrey: #6B7280;
+--off-white:#E5E7EB;
 }
 
 
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -62,7 +64,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 1rem;
 padding: 1rem;
 
 }
@@ -96,7 +98,7 @@ text-align: center;
 
 .hero .hero-img {
 
-    max-width: 350px;
+    max-width: 370px;
     display:block;
     margin:auto
 }
@@ -110,13 +112,41 @@ text-align: center;
     color: #6366F1;
 }
 
-.section  {
+.section h1 {
 text-align: center;
 
 }
 
+.section .section-off-white {
 
+    background-color: var(--off-white);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
 
+.section .section-white {
+
+    padding: 2rem;
+}
+
+/* footer */
+
+.footer {
+
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link {
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
 
 
 
