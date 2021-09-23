@@ -196,7 +196,7 @@ margin: 1rem;
 }
 
 .section-image {
-    width: 310px;
+    width: 300px;
 }
 
 .section-details{
@@ -225,4 +225,11 @@ flex-wrap: wrap-reverse;
 #copywrite {
     padding-top: 1rem;
     font-weight: 100;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
