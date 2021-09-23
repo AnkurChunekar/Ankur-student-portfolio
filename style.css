@@ -108,7 +108,7 @@ text-align: center;
     margin: 1rem;
 }
 .head-bold {
-    color: #6366F1;
+    color: var(--primary-color);
 }
 
 .section h1 {
@@ -232,4 +232,27 @@ flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.project-box {
+    width: 320px;
+padding: 0.5rem;
+background-color: #D1D5DB;
+margin: 2rem;
+height: fit-content;
+}
+
+.project-image {
+    width: 320px;
+    border-radius: 0.5rem;
+}
+
+.project-box .primary-link{
+display: inline-block;
+margin: 0;
+}
+
+.project-box .secondary-link{
+    display: inline-block;
+    margin: 0;
 }
