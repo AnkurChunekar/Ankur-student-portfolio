@@ -86,8 +86,9 @@ text-decoration: none;
 
 
 .hero {
-padding: 2rem 0rem;
+padding: 2rem 0rem 1rem 0rem;
 text-align: center;
+font-size: 0.9rem;
 }
 
 .hero .hero-img {
@@ -103,6 +104,7 @@ text-align: center;
 .head-bold {
     color: var(--primary-color);
 }
+
 
 .section h1 {
 text-align: center;
@@ -228,7 +230,7 @@ flex-wrap: wrap-reverse;
     padding: 0.5rem;
     margin: 2rem;
     height: fit-content;
-    box-shadow: 0px 0px 10px 3px #888888;
+    box-shadow: 0px 0px 10px 1px #888888;
     border-radius: 0.5rem;
 }
 
@@ -245,4 +247,28 @@ margin: 0;
 .project-box .secondary-link{
     display: inline-block;
     margin: 0;
+}
+
+.about-section{
+    max-width: 600px;
+}
+
+.about-image{
+    max-width: 600px;
+    
+}
+
+.about-section ul li {
+margin: 1rem;
+font-weight: 300;
+text-align: justify;
+}
+
+.about-section h1 {
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.about-btn {
+    margin-top: 2.5rem;
 }
