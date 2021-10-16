@@ -273,3 +273,7 @@ text-align: justify;
 .about-btn {
     margin-top: 2.5rem;
 }
+
+footer small p {
+    font-weight: 100;
+}
