@@ -76,6 +76,7 @@ text-decoration: none;
 
 .list-align-right {
     text-align: right;
+    padding-inline-start: 0;
 }
 
 .navigation .link-active {
