@@ -251,11 +251,11 @@ margin: 0;
 }
 
 .about-section{
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .about-image{
-    max-width: 600px;
+    max-width: 500px;
     
 }
 
@@ -280,6 +280,6 @@ footer small p {
 
 @media(max-width:768px) {
     .hero {
-        font-size: 65%;
+        font-size: 80%;
     }
 }
