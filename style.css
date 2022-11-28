@@ -116,6 +116,7 @@ hr {
   display: block;
   margin: 1rem auto;
   text-align: center;
+  max-width: 120px;
 }
 
 .secondary-link {
@@ -123,6 +124,7 @@ hr {
   margin: 0.5rem auto;
   text-align: center;
   border: solid 1px black;
+  max-width: 120px;
 }
 
 .section .section-off-white {
